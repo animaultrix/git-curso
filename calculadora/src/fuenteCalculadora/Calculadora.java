@@ -1,4 +1,4 @@
-/* Calculadora */
+
 package fuenteCalculadora;
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
