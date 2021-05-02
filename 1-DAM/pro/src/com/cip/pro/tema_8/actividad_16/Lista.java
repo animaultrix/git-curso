@@ -12,8 +12,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-
-import com.itextpdf.text.Chunk;
+//La librerÃ­a iTextPDF es una librerÃ­a OpenSource para crear y manipular documentos CSV. La URL en Maven Central es:
+//https://mvnrepository.com/artifact/com.opencsv/opencsv
+import com.itextpdf.text.Chunk; 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.text.Paragraph;
@@ -132,7 +133,7 @@ public class Lista {
 		}while(eda==0);
 		System.out.print("Inserta calle: ");
 		String cal = sc.nextLine();
-		System.out.print("Inserta número: ");
+		System.out.print("Inserta nï¿½mero: ");
 		int num=0;
 		do {
 			
@@ -140,7 +141,7 @@ public class Lista {
 				num = Integer.parseInt(sc.nextLine());	
 				
 			}catch(Exception e){			
-			System.out.print("inserta número valido:");
+			System.out.print("inserta nï¿½mero valido:");
 			
 			}
 		}while(num==0);
@@ -167,14 +168,14 @@ public class Lista {
 	 */	
 	public static void eliminar(ArrayList<Persona> eliminar) {
 		
-		System.out.println("Inserta el número de la posición de la lista a eliminar"); 
+		System.out.println("Inserta el nï¿½mero de la posiciï¿½n de la lista a eliminar"); 
 		String tec = sc.nextLine();
 		System.out.println("*****************************\n"
 						 + eliminar.get(Integer.parseInt(tec)).getNombre()+" ha sido eliminado"); 
 		eliminar.remove(Integer.parseInt(tec));
 	}
 	/**
-	 * @return número de personas en lista
+	 * @return nï¿½mero de personas en lista
 	 */	
 	public static void contar(ArrayList<Persona> contar) {
 		
@@ -210,7 +211,7 @@ public class Lista {
 		Collections.sort(ordenar); 
 		System.out.println("*****************************\n"
 				         + "Lista ordenada por apellido "
-				         + "\nalfabéticamente.");
+				         + "\nalfabï¿½ticamente.");
 	}
 	/**
 	 * @Guardar lista.csv
@@ -448,7 +449,7 @@ class Persona extends Direccion implements Comparable<Persona>{
 				+ ", Cp: " + getCp() + ", Provincia: " + getProvincia();
 	}	
 	/**
-	 * @compareTo método de interface Comparable
+	 * @compareTo mï¿½todo de interface Comparable
 	 */
 	@Override
 	public int compareTo(Persona o) {
