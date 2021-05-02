@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Recetario - Sistema de Pruebas para XML</title>
+        <meta charset="UTF-8">
+        <meta name="title" content="Sistema de Pruebas para XMl">
+        <meta name="description" content="Recetario">  
+
+        <!-- CSS DEL MENÚ -->
+        <link rel="stylesheet" href="./css/menu.css">
+        <link rel="stylesheet" href="./css/main.css">
+
+        <!-- CSS stars -->
+        <link rel="stylesheet" href="./css/stars.css">
+
+        <!-- CSS DE BOOTSTRAP -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- JS DE BOOTSTRAP, INCLUYENDO JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/eff8bff3c8.js" crossorigin="anonymous"></script>
+        
+        <!-- LECTOR XML -->
+        <script src="js/funciones.js"></script>
+        
+    </head>
+    <body>
+        <nav  id="menu-admin" class="navbar navbar-expand-md" >
+            <a class="navbar-brand" href="index.html"><img class="imagenLogoMenuSuperior" src="./img/logo.png" height="80" alt="Inicio"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li id="menu-home" class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa fa-home fa-3x" aria-hidden="true"></i><br>Inicio</a>
+                    </li>  
+                    <li id="menu-catalogoCD" class="nav-item">
+                        <a class="nav-link" href="catalogoCD.html"><i class="fas fa-compact-disc fa-3x"></i><br>CD's</a>
+                    </li>
+                    <li id="menu-plantas" class="nav-item">
+                        <a class="nav-link" href="plantas.html"><i class="fas fa-seedling fa-3x"></i><br>Plantas</a>
+                    </li>
+                    <li id="menu-recetas" class="nav-item">
+                        <a class="nav-link" href="recetas.html"><i class="fas fa-utensils fa-3x"></i><br>Recetas</a>
+                    </li>	
+                </ul>
+            </div>
+        </nav>
+       
+        <!-- Activamos la sección del menú -->
+    <script>$("#menu-recetas").addClass('active')</script>
+
+    <section id="recetasID" class="mb-5 mt-5">
+    </section>
+
+    <footer class="footer mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span>Información Santa Cruz de Tenerife <?php echo date("Y"); ?></span>
+                </div>
+            </div>
+        </div>
+    </footer>  
+    </body>
+    <script>mostrarRecetasCards();</script>
+</html>

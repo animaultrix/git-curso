@@ -1,0 +1,109 @@
+
+
+.body-oscuro { 
+  color: aliceblue; 
+  height: 100%;
+  margin-top: 3%;
+  background-color: #181818; 
+  background-size:100% 200%; 
+  background-repeat: no-repeat;
+  background-position: top;  
+  background-position-y: 128px;
+}
+.body-claro{
+  color: #121212;
+  height: 100%;
+  margin-top: 3%;  
+  background-size:100% 200%; 
+  background-repeat: no-repeat;
+  background-position: top;  
+  background-position-y: 128px;
+}
+@media (max-width: 768px){
+  body{         
+    background-image: none;  
+  }
+}
+.material-icons.md-25 { font-size: 30px; }
+.form-oscuro{
+  margin-top: 40px;
+  background-color: #212121; 
+  border-radius: 9px ;
+}
+.form-claro{
+  margin-top: 40px;
+  background-color: #afafaf; 
+  border-radius: 9px ;
+  font:bol
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+   margin: auto;
+}
+.form-signin2 {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+   margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+  
+}
+.form-signin2 .checkbox {
+  font-weight: 400;
+  
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;  
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  background-color: #121212
+}
+.form-signin2 input[type="email"] {
+  margin-bottom: -1px;  
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  
+  color:#121212
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;  
+  background-color: #121212
+     
+}
+.form-signin2 input[type="password"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;  
+  
+  color:#121212
+     
+}
+.barra-inicio-oscura{
+  background-color: #212121;  
+}
+.barra-inicio-clara{
+  background-color: #afafaf;  
+}
+#testimonio_oscuro{
+  background: #212121;
+  color: aliceblue;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+#testimonio_claro{
+  background: #afafaf; 
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+

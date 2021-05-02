@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aeropuerto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="aeropuerto.xsd">
+   <nombre>JFK</nombre>
+   <vuelos>
+      <vuelo código="V22" estado="R">
+         <diario />
+         <origen>New York</origen>
+         <destino>Chicago</destino>
+         <hora-salida>09:30:00</hora-salida>
+         <hora-llegada>11:30:00</hora-llegada>
+      </vuelo>
+      <vuelo código="V23" estado="C">
+         <origen>New York</origen>
+         <destino>Miami</destino>
+         <hora-salida>10:15:00</hora-salida>
+         <hora-llegada>11:15:00</hora-llegada>
+      </vuelo>
+   </vuelos>
+   <fecha>2013-12-20</fecha>
+</aeropuerto>
+<!-- Escribir el código del archivo “aeropuerto.xsd” que permita validarlo, teniendo en cuenta las siguientes restricciones:
+
+    • El nombre de los aeropuertos, vuelos y fecha pueden aparecer en el orden que se quiera.
+    • Se tiene que indicar que el código del vuelo es único (xs:ID) y obligatorio para cada vuelo.
+    • Los posibles estados de un vuelo son C (Cancelado), E (En hora) y R (Retrasado). El valor por defecto será E.
+    • Debe permitirse desde cero vuelos hasta infinitos vuelos. Dentro de cada vuelo, los elementos deben aparecer en el 
+      mismo orden que figura en el panel.
+    • Para indicar si un vuelo es diario, se debe utilizar un elemento vacío que, respecto a cada vuelo, podrá aparecer o 
+      no en caso de ser o no diario.
+    • Habrá que utilizar la definición más apropiada (congruente) para los elementos nombre, origen, destino, hora-llegada,
+      hora-salida y fecha, de entre los proporcionados por XML Schema.
+
+    PANEL DE VUELOS DE SALIDA DEL AEROPUERTO JFK – 20/12/2013    
+    Código   Diario     Origen     Destino       Hora salida        Hora llegada    Estado
+    V22      SI         New York   Chicago       9:30               11:30           R
+    V23      NO         New York   Miami         10:15              11:15           C
+    -->

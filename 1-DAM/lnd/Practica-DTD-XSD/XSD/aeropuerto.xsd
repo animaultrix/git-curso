@@ -1,0 +1,72 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!--*************************************************************************
+                            elemento complejo raíz aeropuerto
+        *************************************************************************-->
+    <xs:element name="aeropuerto">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="nombre"/>
+                <xs:element ref="vuelos"/>
+                <xs:element ref="fecha"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+
+    <!--*************************************************************************
+                                elemento complejo vuelos
+        *************************************************************************-->
+    <xs:element name="vuelos">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element ref="vuelo" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--*************************************************************************
+                                elemento complejo vuelo
+        *************************************************************************-->
+    <xs:element name="vuelo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="diario" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="origen"/>
+                <xs:element ref="destino"/>
+                <xs:element ref="hora-salida"/>
+                <xs:element ref="hora-llegada"/>
+            </xs:sequence>
+            <xs:attribute ref="código" use="required"/>
+            <xs:attribute ref="estado"/>
+        </xs:complexType>
+    </xs:element>
+    <!--*************************************************************************
+                                    elementos simples
+        *************************************************************************-->
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="diario"/>
+    <xs:element name="origen" type="xs:string"/>
+    <xs:element name="destino" type="xs:string"/>
+    <xs:element name="hora-salida" type="xs:time"/>
+    <xs:element name="hora-llegada" type="xs:time"/>
+    <xs:element name="fecha" type="xs:date"/>
+
+    <!--*************************************************************************
+                                    atributos
+        *************************************************************************-->
+    <xs:attribute name="código" >
+        <xs:simpleType>
+            <xs:restriction base="xs:ID">
+               <xs:pattern value="[V][1-9]{2}"/> <!-- [V]\d{2} o [V][0-9[0-9]]-->
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="estado" default="E">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                 <xs:pattern value="[E C R]"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+</xs:schema>

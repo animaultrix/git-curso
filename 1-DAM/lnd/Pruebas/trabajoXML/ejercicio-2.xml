@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+    <remitente>    
+<nombre>Pedro García</nombre>
+ <email>pgarher@gmail.com</email>
+    </remitente>
+    <destinatario>
+<nombre>Ana Estévez</nombre>
+ <email>aestper@gmail.com</email>  
+    </destinatario>
+    <asuntos>"saludo"</asuntos>
+    <texto>
+<parrafo1>"Hola que tal"</parrafo1> 
+    </texto>
+</mensaje>

@@ -1,0 +1,292 @@
+{
+    "docs":[
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.2531253896762,
+                28.47492552989593
+             ]
+          },
+          "GEOCODIGO":"TUR_011",
+          "UTM_X":377328.593317,
+          "UTM_Y":3150453.77939,
+          "DIRECCION":"CALLE DOCTOR JOSE NAVEIRAS 38",
+          "FID_1":7,
+          "NOMBRE":"HOTEL MENCEY",
+          "GRAD_Y":28.4749255299,
+          "GRAD_X":-16.2531253897
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.248944202885006,
+                28.466669256084423
+             ]
+          },
+          "GEOCODIGO":"TUR_007",
+          "UTM_X":377728.427934,
+          "UTM_Y":3149534.7452,
+          "DIRECCION":"CALLE CRUZ VERDE 24",
+          "FID_1":3,
+          "NOMBRE":"HOTEL ADONIS CAPITAL",
+          "GRAD_Y":28.4666692561,
+          "GRAD_X":-16.2489442029
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.250930695879674,
+                28.46867485085343
+             ]
+          },
+          "GEOCODIGO":"TUR_004",
+          "UTM_X":377536.246341,
+          "UTM_Y":3149758.98226,
+          "DIRECCION":"CALLE VALENTIN SANZ 33",
+          "FID_1":0,
+          "NOMBRE":"HOTEL PRINCIPE PAZ",
+          "GRAD_Y":28.4686748509,
+          "GRAD_X":-16.2509306959
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.253459871752394,
+                28.463929978110915
+             ]
+          },
+          "GEOCODIGO":"TUR_027",
+          "UTM_X":377283.140296,
+          "UTM_Y":3149235.8435,
+          "DIRECCION":"CALLE PADRE ANCHIETA 8",
+          "FID_1":14,
+          "NOMBRE":"HOTEL TANAUSU",
+          "GRAD_Y":28.4639299781,
+          "GRAD_X":-16.2534598718
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.24966116359427,
+                28.467069848685913
+             ]
+          },
+          "GEOCODIGO":"TUR_006",
+          "UTM_X":377658.692902,
+          "UTM_Y":3149579.8594,
+          "DIRECCION":"CALLE CASTILLO 10",
+          "FID_1":2,
+          "NOMBRE":"HOTEL OCEANO",
+          "GRAD_Y":28.4670698487,
+          "GRAD_X":-16.2496611636
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.249780219298366,
+                28.46708373892735
+             ]
+          },
+          "GEOCODIGO":"TUR_005",
+          "UTM_X":377647.052386,
+          "UTM_Y":3149581.51961,
+          "DIRECCION":"CALLE CASTILLO 12",
+          "FID_1":1,
+          "NOMBRE":"HOTEL ATLANTICO",
+          "GRAD_Y":28.4670837389,
+          "GRAD_X":-16.2497802193
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.24858188931318,
+                28.46753693518271
+             ]
+          },
+          "GEOCODIGO":"TUR_009",
+          "UTM_X":377764.900246,
+          "UTM_Y":3149630.513,
+          "DIRECCION":"CALLE BETHENCOURT ALFONSO 8",
+          "FID_1":5,
+          "NOMBRE":"HOTEL PELINOR",
+          "GRAD_Y":28.4675369352,
+          "GRAD_X":-16.2485818893
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.248756890232638,
+                28.467215115206194
+             ]
+          },
+          "GEOCODIGO":"TUR_008",
+          "UTM_X":377747.395828,
+          "UTM_Y":3149595.03428,
+          "DIRECCION":"PLAZA DE CANDELARIA, 9",
+          "FID_1":4,
+          "NOMBRE":"HOTELADONIS PLAZA",
+          "GRAD_Y":28.4672151152,
+          "GRAD_X":-16.2487568902
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.249720835134152,
+                28.47000855261746
+             ]
+          },
+          "GEOCODIGO":"TUR_025",
+          "UTM_X":377656.236428,
+          "UTM_Y":3149905.52032,
+          "DIRECCION":"CALLE SANTA ROSA DE LIMA 11",
+          "FID_1":15,
+          "NOMBRE":"HOTEL HORIZONTE",
+          "GRAD_Y":28.4700085526,
+          "GRAD_X":-16.2497208351
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.257125678192963,
+                28.47127655355969
+             ]
+          },
+          "GEOCODIGO":"TUR_010",
+          "UTM_X":376932.731403,
+          "UTM_Y":3150053.5731,
+          "DIRECCION":"CALLE VIERA Y CLAVIJO 49",
+          "FID_1":6,
+          "NOMBRE":"HOTELAPARTAMENTO COLON RAMBLA",
+          "GRAD_Y":28.4712765536,
+          "GRAD_X":-16.2571256782
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.259923626532743,
+                28.46406434767396
+             ]
+          },
+          "GEOCODIGO":"TUR_017",
+          "UTM_X":376650.422653,
+          "UTM_Y":3149257.34816,
+          "DIRECCION":"AVENIDA SAN SEBASTIAN 152",
+          "FID_1":11,
+          "NOMBRE":"HOTEL ESCUELA SANTA CRUZ",
+          "GRAD_Y":28.4640643477,
+          "GRAD_X":-16.2599236265
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.257390600671446,
+                28.458557416696106
+             ]
+          },
+          "GEOCODIGO":"TUR_018",
+          "UTM_X":376892.051602,
+          "UTM_Y":3148644.59817,
+          "DIRECCION":"CALLE AUREA DIAZ-FLORES HERNANDEZ, 2",
+          "FID_1":12,
+          "NOMBRE":"HOTEL SILKEN ATLANTIDA",
+          "GRAD_Y":28.4585574167,
+          "GRAD_X":-16.2573906007
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.248403804888017,
+                28.466065860947236
+             ]
+          },
+          "GEOCODIGO":"TUR_021",
+          "UTM_X":377780.643047,
+          "UTM_Y":3149467.34105,
+          "DIRECCION":"CALLE CANDELARIA, 24",
+          "FID_1":13,
+          "NOMBRE":"HOTEL NH TENERIFE",
+          "GRAD_Y":28.4660658609,
+          "GRAD_X":-16.2484038049
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.25281750941725,
+                28.47398463886871
+             ]
+          },
+          "GEOCODIGO":"TUR_013",
+          "UTM_X":377357.648132,
+          "UTM_Y":3150349.21682,
+          "DIRECCION":"RAMBLA DE SANTA CRUZ, 116",
+          "FID_1":8,
+          "NOMBRE":"HOTEL BARCELO CONTEMPORANEO",
+          "GRAD_Y":28.4739846389,
+          "GRAD_X":-16.2528175094
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.252960485795548,
+                28.47335450631919
+             ]
+          },
+          "GEOCODIGO":"TUR_014",
+          "UTM_X":377342.92247,
+          "UTM_Y":3150279.54576,
+          "DIRECCION":"CALLE DOCTOR JOSE NAVEIRAS 24A",
+          "FID_1":9,
+          "NOMBRE":"HOTEL TABURIENTE",
+          "GRAD_Y":28.4733545063,
+          "GRAD_X":-16.2529604858
+       },
+       {
+          "TIPO":"Infraestructura tur\u00edstica",
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                -16.2461795958524,
+                28.479481188783797
+             ]
+          },
+          "GEOCODIGO":"TUR_015",
+          "UTM_X":378013.827986,
+          "UTM_Y":3150951.46163,
+          "DIRECCION":"AVENIDA PROFESOR PERAZA DE AYALA 13",
+          "FID_1":10,
+          "NOMBRE":"HOTEL NAUTICO",
+          "GRAD_Y":28.4794811888,
+          "GRAD_X":-16.2461795959
+       }
+    ]
+ }

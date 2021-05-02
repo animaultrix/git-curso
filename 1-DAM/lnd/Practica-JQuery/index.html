@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Scripts jquery -->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Scripts unpkg  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Scripts internos -->
+    <script src="JScript.js"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">    
+</head>
+<body class="bg-dark">
+        <!-- Sección formulario -->
+        <div class="formulario">
+            <section class="mt-5" >
+                <div class="container bg-dark text-white border border-light border-2 py-5 px-5 col-md-4  " style="border-radius: 9px;" >
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="nombre" class="h3">Nombre</label>
+                                <input type="text" class="form-control " id="nombre" aria-describedby="descripcionNombre" placeholder="Introduzca su nombre" >
+                                <small id="descripcionNombre" ></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="apellidos" class="h3">Apellidos</label>
+                                <input type="text" class="form-control" id="apellidos" aria-describedby="descripcionApellidos" placeholder="Introduzca sus apellidos">
+                                <small id="descripcionApellidos" class="form-text d-none"></small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="pass" class="h3 ">Contraseña</label>
+                                <input type="password" class="form-control" id="pass" aria-describedby="descripcionPassword" placeholder="Introduzca su contraseña">
+                                <small id="descripcionPassword"></small>
+                            </div>
+                        </div>					
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="rPass" class="h3">Repetir Contraseña</label>
+                                <input type="password" class="form-control" id="rPass" aria-describedby="descripcionPassword" placeholder="Repite contraseña">
+                                <small id="descripcionRPassword"></small>
+                            </div>
+                        </div>					
+                    </div>
+                    <div class="row mt-4 ">
+                        <div class="col-md-6 ">
+                            <button class="btn btn-outline-light fw-bolder border-2" onclick="enviarFormulario()">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!--****************************************************
+                elemento complejo raiz fichas
+        ****************************************************-->
+    <xs:element name="fichas">        
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element ref="ficha"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--******************************************************
+                    elemento complejo ficha
+        ******************************************************--> 
+    <xs:element name="ficha">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="edad" minOccurs="0" maxOccurs="99"/>                
+            </xs:sequence>
+            <xs:attribute ref="numero"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <!--**************************************************
+                        elementos simples 
+        **************************************************-->
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="edad" type="xs:positiveInteger"/>
+    
+    <!--**************************************************
+                            atributo 
+        **************************************************-->
+    <xs:attribute name="numero">
+        <xs:simpleType>
+            <xs:restriction base="xs:positiveInteger">
+                <xs:minInclusive value ="1"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>    
+    
+</xs:schema>

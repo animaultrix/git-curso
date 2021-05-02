@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paises [
+   <!ELEMENT paises (pais, ciudad*)*>
+   <!ELEMENT pais (#PCDATA)>
+   <!ELEMENT ciudad (#PCDATA)>
+]>
+
+<paises>
+   <pais>italia</pais>
+   <ciudad>florencia</ciudad>
+   <pais>portugal</pais>
+   <ciudad>lisboa</ciudad>
+   <ciudad>oporto</ciudad>
+   <pais>francia</pais>
+</paises>

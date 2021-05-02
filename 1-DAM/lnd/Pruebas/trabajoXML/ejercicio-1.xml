@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido>
+        <destinatario>
+            <nombre>Álvaro</nombre>
+            <apellidos>Sosa de Mesa</apellidos>
+            <telefono>654123456</telefono>
+            <direccion-de-entrega>
+                <calle>Barco</calle>
+                <numero>4</numero>
+                <piso>3</piso>
+                <puerta>A</puerta>
+            </direccion-de-entrega>
+        </destinatario>           
+        <articulo>
+            <ordenador>ASUS F540YA-XX078T</ordenador>        
+        </articulo>
+        <fecha-de-entrega>01-05-2017</fecha-de-entrega>  
+    </pedido>
+</pedidos>

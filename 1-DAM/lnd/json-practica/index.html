@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Web de información de Santa Cruz de Tenerife</title>
+    <meta charset="utf-8">
+    <meta name="title" content="Información de Santa Cruz de Tenerife">
+    <meta name="description" content="Web de información de Santa Cruz de Tenerife">  
+
+	<!-- CSS DEL MENÚ -->
+	<link rel="stylesheet" href="./css/menu.css">
+	<link rel="stylesheet" href="./css/main.css">
+
+	<!-- CSS DE BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- JS DE BOOTSTRAP, INCLUYENDO JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- FONT AWESOME -->
+	<script src="https://kit.fontawesome.com/eff8bff3c8.js" crossorigin="anonymous"></script>
+	
+	<!-- LECTOR JSON -->
+	<script src="js/funciones.js"></script>
+	
+</head>
+
+
+<body>
+	<nav  id="menu-admin" class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="index.html"><img class="imagenLogoMenuSuperior" src="./img/logo.png" height="80" alt="Inicio"></a>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				<li id="menu-home" class="nav-item">
+					<a class="nav-link" href="index.html"><i class="fas fa-home fa-3x" aria-hidden="true"></i><br>Inicio</a>
+				</li>
+				<li id="menu-farmacias" class="nav-item">
+					<a class="nav-link" href="farmacias.html"><i class="fas fa-prescription-bottle-alt fa-3x" aria-hidden="true"></i><br>Farmacias</a>
+				</li>
+				<li id="menu-paradasDeTaxi" class="nav-item">
+					<a class="nav-link" href="paradasDeTaxi.html"><i class="fas fa-taxi fa-3x" aria-hidden="true"></i><br>Paradas de taxi</a>
+				</li>
+				<li id="menu-hoteles" class="nav-item">
+					<a class="nav-link" href="hoteles.html"><i class="fas fa-hotel fa-3x" aria-hidden="true"></i><br>Hoteles</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+<!-- Activamos la sección del menú -->
+<script>$("#menu-home").addClass('active')</script>
+
+
+<section class="mt-3 text-center">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h3>Bienvenido/a</h3>
+            </div>
+        </div>
+        <div class="row">
+			<div class="col-md-4">
+				<div class="card bg-light border-warning mb-3">
+					<div class="card-header text-secondary font-weight-bold"><i class="fas fa-prescription-bottle-alt"></i> Farmacias</div>
+					<div class="card-body">
+						<h3 class="card-title text-center text-warning"><i class="fas fa-prescription-bottle-alt fa-3x"></i></h3>
+						<p class="card-text text-info text-justify text-center">Farmacias</p>
+						<p class="card-text text-center text-danger text-justify">
+							<a href="farmacias.html" class="btn btn-success ">Ver farmacias</a>
+						</p>					
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card bg-light border-warning mb-3">
+					<div class="card-header text-secondary font-weight-bold"><i class="fas fa-taxi"></i> Paradas de taxi</div>
+					<div class="card-body">
+						<h3 class="card-title text-center text-warning"><i class="fas fa-taxi fa-3x"></i></h3>
+						<p class="card-text text-info text-justify text-center">Paradas de taxi</p>
+						<p class="card-text text-danger text-justify text-center">
+							<a href="paradasDeTaxi.html" class="btn btn-success ">Ver paradas de taxi</a>
+						</p>					
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card bg-light border-warning mb-3">
+					<div class="card-header text-secondary font-weight-bold"><i class="fas fa-hotel"></i> Hoteles</div>
+					<div class="card-body">
+						<h3 class="card-title text-center text-warning"><i class="fas fa-hotel fa-3x"></i></h3>
+						<p class="card-text text-info text-justify text-center">Hoteles</p>
+						<p class="card-text text-danger text-justify text-center">
+							<a href="hoteles.html" class="btn btn-success ">Ver hoteles</a>
+						</p>					
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <span>Información Santa Cruz de Tenerife <?php echo date("Y"); ?></span>
+        </div>
+    </div>
+</div>
+</footer>
+</body>
+</html>

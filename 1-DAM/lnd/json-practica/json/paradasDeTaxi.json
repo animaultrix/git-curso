@@ -1,0 +1,524 @@
+{
+   "docs":[
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.188794743383756,
+               28.507592340091158
+            ]
+         },
+         "GEOCODIGO":"TAX_001",
+         "LONG_SIG":44,
+         "Barrio":"SAN ANDRES",
+         "DIRECCION":"PLAYA LAS TERESITAS"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.251045782978487,
+               28.4682772818014
+            ]
+         },
+         "GEOCODIGO":"TAX_003",
+         "LONG_SIG":50,
+         "Barrio":"ZONA CENTRO",
+         "DIRECCION":"CALLE EL PILAR 2"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.25343444964393,
+               28.47426274359009
+            ]
+         },
+         "GEOCODIGO":"TAX_004",
+         "LONG_SIG":18,
+         "Barrio":"LAS MIMOSAS",
+         "DIRECCION":"CALLE DOCTOR JOSE NAVEIRAS 38"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.251170968779707,
+               28.468465033838694
+            ]
+         },
+         "GEOCODIGO":"TAX_005",
+         "LONG_SIG":50,
+         "Barrio":"ZONA CENTRO",
+         "DIRECCION":"CALLE EL PILAR 4"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.247286870253962,
+               28.470647967864362
+            ]
+         },
+         "GEOCODIGO":"TAX_006",
+         "LONG_SIG":15,
+         "Barrio":"TOSCAL",
+         "DIRECCION":"AVDA FRANCISCO LA ROCHE  (MUELLE DE RIBERA)"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.306051171603396,
+               28.437729934625455
+            ]
+         },
+         "GEOCODIGO":"TAX_035",
+         "LONG_SIG":32,
+         "Barrio":"BARRANCO GRANDE",
+         "DIRECCION":"CARRETERA DEL SOBRADILLO 1"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.28474164916702,
+               28.44974330572489
+            ]
+         },
+         "GEOCODIGO":"TAX_032",
+         "LONG_SIG":36,
+         "Barrio":"JUAN XXIII",
+         "DIRECCION":"CALLE MAESTRO BORGU\u00d1O (RESIDENCIA DE NUESTRA SE\u00d1ORA DE CANDELARIA)"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.192057223036183,
+               28.503954528490432
+            ]
+         },
+         "GEOCODIGO":"TAX_002",
+         "LONG_SIG":14,
+         "Barrio":"SAN ANDRES",
+         "DIRECCION":"CALLE DIQUE 12 (SAN ANDR\u00c9S)"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.247866002161988,
+               28.46631032369049
+            ]
+         },
+         "GEOCODIGO":"TAX_007",
+         "LONG_SIG":23,
+         "Barrio":"ZONA CENTRO",
+         "DIRECCION":"CALLE GENERAL GUTIERREZ 2"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.255397652826424,
+               28.46793067514853
+            ]
+         },
+         "GEOCODIGO":"TAX_008",
+         "LONG_SIG":50,
+         "Barrio":"ZONA CENTRO",
+         "DIRECCION":"PLAZA WEYLER"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.300291810065648,
+               28.44485118698277
+            ]
+         },
+         "GEOCODIGO":"TAX_036",
+         "LONG_SIG":25,
+         "Barrio":"BARRANCO GRANDE",
+         "DIRECCION":"CARRETERA GENERAL DEL SUR 3A"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.300463717431395,
+               28.42604395110991
+            ]
+         },
+         "GEOCODIGO":"TAX_037",
+         "LONG_SIG":70,
+         "Barrio":"A\u00d1AZA",
+         "DIRECCION":"CALLE BENTAGAY 3"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.252699806423838,
+               28.47157657841278
+            ]
+         },
+         "GEOCODIGO":"TAX_009",
+         "LONG_SIG":20,
+         "Barrio":"ZONA CENTRO",
+         "DIRECCION":"CALLE MENDEZ NU\u00d1EZ 64"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.268198815025826,
+               28.460446495429206
+            ]
+         },
+         "GEOCODIGO":"TAX_015",
+         "LONG_SIG":10,
+         "Barrio":"LOS GLADIOLOS",
+         "DIRECCION":"CALLE GANIVET 5"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.245004164219957,
+               28.47862007933401
+            ]
+         },
+         "GEOCODIGO":"TAX_010",
+         "LONG_SIG":15,
+         "Barrio":"URBANIZACION ANAGA",
+         "DIRECCION":"CALLE CARLOS J. R. HAMILTON 10"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.32014577836468,
+               28.4355475245361
+            ]
+         },
+         "GEOCODIGO":"TAX_038",
+         "LONG_SIG":11,
+         "Barrio":"LA GALLEGA",
+         "DIRECCION":"AVDA LITRE 8"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.27906379933017,
+               28.47036237942635
+            ]
+         },
+         "GEOCODIGO":"TAX_016",
+         "LONG_SIG":22,
+         "Barrio":"LA SALUD",
+         "DIRECCION":"CALLE ARONA 4"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.253269526801233,
+               28.473608381646425
+            ]
+         },
+         "GEOCODIGO":"TAX_011",
+         "LONG_SIG":29,
+         "Barrio":"TOSCAL",
+         "DIRECCION":"CALLE DOCTOR JOSE NAVEIRAS 28"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.258467731051116,
+               28.457494197380687
+            ]
+         },
+         "GEOCODIGO":"TAX_017",
+         "LONG_SIG":30,
+         "Barrio":"LOS LLANOS",
+         "DIRECCION":"CALLE ALVARO RODRIGUEZ LOPEZ 13"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.25682821523345,
+               28.454069465278593
+            ]
+         },
+         "GEOCODIGO":"TAX_018",
+         "LONG_SIG":27,
+         "Barrio":"LOS LLANOS",
+         "DIRECCION":"AVDA LA CONSTITUCION (FRENTE RECINTO FERIAL)"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.254286789455385,
+               28.459418419109817
+            ]
+         },
+         "GEOCODIGO":"TAX_019",
+         "LONG_SIG":61,
+         "Barrio":"LOS LLANOS",
+         "DIRECCION":"AVDA TRES DE MAYO 7"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.254680118259945,
+               28.459325800348765
+            ]
+         },
+         "GEOCODIGO":"TAX_020",
+         "LONG_SIG":9,
+         "Barrio":"LOS LLANOS",
+         "DIRECCION":"AVDA TRES DE MAYO 7"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.255949479254554,
+               28.459032039589754
+            ]
+         },
+         "GEOCODIGO":"TAX_021",
+         "LONG_SIG":18,
+         "Barrio":"LOS LLANOS",
+         "DIRECCION":"AVDA TRES DE MAYO 9"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.256264036065414,
+               28.45896297807919
+            ]
+         },
+         "GEOCODIGO":"TAX_022",
+         "LONG_SIG":18,
+         "Barrio":"LOS LLANOS",
+         "DIRECCION":"AVDA TRES DE MAYO 11"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.25246110685903,
+               28.463106725168828
+            ]
+         },
+         "GEOCODIGO":"TAX_023",
+         "LONG_SIG":5,
+         "Barrio":"CUATRO TORRES",
+         "DIRECCION":"CALLE JOSE HERNANDEZ ALFONSO 1"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.252537022999608,
+               28.46295349515306
+            ]
+         },
+         "GEOCODIGO":"TAX_024",
+         "LONG_SIG":33,
+         "Barrio":"CUATRO TORRES",
+         "DIRECCION":"CALLE JOSE HERNANDEZ ALFONSO 1"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.247494290643477,
+               28.46652438889369
+            ]
+         },
+         "GEOCODIGO":"TAX_012",
+         "LONG_SIG":28,
+         "Barrio":"ZONA CENTRO",
+         "DIRECCION":"PLAZA DE ESPA\u00d1A"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.30567791080112,
+               28.426347476403038
+            ]
+         },
+         "GEOCODIGO":"TAX_039",
+         "LONG_SIG":16,
+         "Barrio":"ALISIOS",
+         "DIRECCION":"CALLE TAMARAGUA 57"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.262258245854447,
+               28.45911579707891
+            ]
+         },
+         "GEOCODIGO":"TAX_025",
+         "LONG_SIG":13,
+         "Barrio":"LA SALLE",
+         "DIRECCION":"CALLE TOME CANO 7"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.26211690811891,
+               28.45897035408522
+            ]
+         },
+         "GEOCODIGO":"TAX_026",
+         "LONG_SIG":4,
+         "Barrio":"LA SALLE",
+         "DIRECCION":"CALLE TOME CANO 7"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.262072755188306,
+               28.45882139191574
+            ]
+         },
+         "GEOCODIGO":"TAX_027",
+         "LONG_SIG":19,
+         "Barrio":"LA SALLE",
+         "DIRECCION":"CALLE TOME CANO 7"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.262046386987578,
+               28.461716922178187
+            ]
+         },
+         "GEOCODIGO":"TAX_028",
+         "LONG_SIG":25,
+         "Barrio":"LA SALLE",
+         "DIRECCION":"CALLE HELIODORO RODRIGUEZ LOPEZ 5"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.252480991324067,
+               28.459855736559497
+            ]
+         },
+         "GEOCODIGO":"TAX_029",
+         "LONG_SIG":23,
+         "Barrio":"LOS LLANOS",
+         "DIRECCION":"AVDA TRES DE MAYO (INTERCAMBIADOR)"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.257355292732612,
+               28.458791429695687
+            ]
+         },
+         "GEOCODIGO":"TAX_030",
+         "LONG_SIG":15,
+         "Barrio":"LOS LLANOS",
+         "DIRECCION":"AVDA TRES DE MAYO 67"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.26255160196317,
+               28.458964695649122
+            ]
+         },
+         "GEOCODIGO":"TAX_031",
+         "LONG_SIG":35,
+         "Barrio":"LA SALLE",
+         "DIRECCION":"CALLE FRAGATA DANMARK 1"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.244908461336067,
+               28.47885606973727
+            ]
+         },
+         "GEOCODIGO":"TAX_013",
+         "LONG_SIG":17,
+         "Barrio":"URBANIZACION ANAGA",
+         "DIRECCION":"CALLE CARLOS J. R. HAMILTON 10"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.28276397244774,
+               28.465042051982575
+            ]
+         },
+         "GEOCODIGO":"TAX_033",
+         "LONG_SIG":12,
+         "Barrio":"VISTABELLA",
+         "DIRECCION":"CALLE SOR MARIA DE JESUS 3 (MIRADOR DE VISTABELLA)"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.2868907959698,
+               28.454360270723868
+            ]
+         },
+         "GEOCODIGO":"TAX_034",
+         "LONG_SIG":15,
+         "Barrio":"SANTA CLARA",
+         "DIRECCION":"CALLE DOCTOR CORVINIANO RODRIGUEZ LOPEZ 1"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.259017892142037,
+               28.47166823586188
+            ]
+         },
+         "GEOCODIGO":"TAX_014",
+         "LONG_SIG":15,
+         "Barrio":"LAS MIMOSAS",
+         "DIRECCION":"CALLE ENRIQUE WOLFSON 10"
+      },
+      {
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -16.308826310768087,
+               28.445665227752624
+            ]
+         },
+         "GEOCODIGO":"TAX_040",
+         "LONG_SIG":17,
+         "Barrio":"EL SOBRADILLO",
+         "DIRECCION":"AVDA LOS MAJUELOS 2"
+      }
+   ]
+}

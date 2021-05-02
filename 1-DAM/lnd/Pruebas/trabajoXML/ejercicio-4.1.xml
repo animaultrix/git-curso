@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento>     
+    <destacar importacia= "1"></destacar>
+    <p> 
+           Mi Primer documento XML
+    </p>
+    <p> 
+           Comienza con la etiqueta. A continuación colocamos un elemento sin contenido                         
+    </p>
+     <imagen fichero= "imagen.gif"/>
+</documento>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<arboles>
+    <arbol nombre="Arce monspessulanum">
+        <nombre-comun>Arce de Montepellier, Arce menor.</nombre-comun>
+        <Vegetacion>Caducilolio</Vegetacion>
+        <Altura>De 6 a 10 metros</Altura>
+        <Forma-y-estructura>
+            Copa esférica. Tronco principal recto con bifurcaciones.
+        </Forma-y-estructura>
+        <Color-en-primavera>
+            Haz verde brillante, envés verde blanqucino.
+        </Color-en-primavera>
+        <Resistencia-a-las-heladas>
+            Heladas fuertes (hasta -15ºC)
+        </Resistencia-a-las-heladas>
+    </arbol>
+    <arbol nombre="Olea europea">
+        <nombre-comun>Olivo</nombre-comun>
+        <Vegetacion>Perenne</Vegetacion>
+        <Altura>De 8 a 15 metros</Altura>
+        <Forma-y-estructura>
+            Copa irregular. Tronco principal irregular con bifurcaciones.
+            Ramaje tortuoso.
+        </Forma-y-estructura>
+        <Color-en-primavera>
+            Haz verde oscuro, envés verde plateado.
+        </Color-en-primavera>
+        <Resistencia-a-las-heladas>
+            Heladas medias (hasta -10ºC)
+        </Resistencia-a-las-heladas>
+    </arbol>
+    <arbol nombre="Platanus orientalis">
+        <nombre-comun>Plátano</nombre-comun>
+        <Vegetacion>Caducifolio</Vegetacion>
+        <Altura>De 20 a 25 metros</Altura>
+        <Forma-y-estructura>
+             Copa ovoidal. Tronco principal recto. Ramaje expandido.
+        </Forma-y-estructura>
+        <Color-en-primavera>
+             Haz verde medio, enves verde claro.
+        </Color-en-primavera>
+        <Resistencia-a-las-heladas>
+              Heladas fuertes (hasta -20ºC)
+        </Resistencia-a-las-heladas>
+        </arbol>
+        <arbol nombre="Quercus ilex">
+        <nombre-comun>Encina</nombre-comun>
+        <Vegetacion>Perenne</Vegetacion>
+        <Altura>En torno a 25 metros</Altura>
+        <Forma-y-estructura>
+               Copa esférica o elíptica irregular. Tronco principal recto.
+               Ramaje tortuoso.
+        </Forma-y-estructura>
+        <Color-en-primavera>
+               Haz verde brillante, envés verde blanqucino
+        </Color-en-primavera>
+        <Resistencia-a-las-heladas>
+               Heladas fuertes (hasta -15ºC)
+        </Resistencia-a-las-heladas>
+        </arbol>
+        <arbol nombre="Arce monspessulanum">
+        <nombre-comun>Arce de Montepellier, Arce menor</nombre-comun>
+        <Vegetacion>Caducilolio</Vegetacion>
+        <Altura>De 6 a 10 metros</Altura>
+        <Forma-y-estructura>
+               Copa esférica. Tronco principal recto con bifurcaciones.
+        </Forma-y-estructura>
+        <Color-en-primavera>
+               Plateado en hojas jóvenes.
+               En hojas antiguas, haz verde oscuro, envés plateadoo.
+        </Color-en-primavera>
+        <Resistencia-a-las-heladas>
+               Heladas fuertes (hasta -15ºC)
+        </Resistencia-a-las-heladas>
+    </arbol>
+        
+</arboles>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<especies>    
+    <especie nombre="Litchi" Variedad="Kway may ping"> 
+    <Ciudad-origen>Filipinas</Ciudad-origen>
+        <Color-del-fruto>Rosa</Color-del-fruto>
+        <Maduracion>Agosto</Maduracion>
+        <Riego>Diario</Riego>
+        <Precio-por-kg>3.50€</Precio-por-kg>
+    </especie>
+    <especie nombre="Longan" Variedad="Champoo">
+        <Ciudad-origen>China</Ciudad-origen>
+        <Color-del-fruto>marrón</Color-del-fruto>
+        <Maduracion>Octubre</Maduracion>
+        <Riego>Diario</Riego>
+        <Precio-por-kg>2.50€</Precio-por-kg>
+    </especie>
+    <especie nombre="Litchi" Variedad="Mauritius">
+        <Ciudad-origen>Florida</Ciudad-origen>
+        <Color-del-fruto>Rojo</Color-del-fruto>
+        <Maduracion>Agosto</Maduracion>
+        <Riego>Diario</Riego>
+        <Precio-por-kg>3€</Precio-por-kg>
+    </especie>
+</especies>

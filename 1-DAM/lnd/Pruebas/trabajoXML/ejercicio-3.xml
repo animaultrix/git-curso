@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurante>
+        <carta>    
+            <platos>
+                <plato>
+                    <Gofres-Belgas>
+                        <precio_euros>5.95</precio_euros>
+                        <descripcion>
+                "Dos de nuestros famosos Gofres belgas con abundante sirope"
+               </descripcion>
+                        <calorias>650</calorias>
+                    </Gofres-Belgas>
+                </plato>
+                 <plato>
+                    <Gofres-Belgas-con-fresas>
+                        <precio_euros>7.95</precio_euros>
+                        <descripcion>
+                "Ligeros gofres belgas cubiertos de fresa y nata"
+               </descripcion>
+                         <calorias>900</calorias>
+                    </Gofres-Belgas-con-fresas>
+                </plato> <plato>
+                    <Gofres-Belgas-con-frutas-del-bosque>
+                        <precio_euros>8.85</precio_euros>
+                        <descripcion>
+                 "Ligeros gofres belgas cubiertos con frutas del bosque y nata montada"
+              </descripcion>
+                        <calorias>900</calorias>
+                    </Gofres-Belgas-con-frutas-del-bosque>
+                </plato> <plato>
+                    <Tostada-Francesa>
+                        <precio_euros>4.50</precio_euros>
+                        <descripcion>
+                 "Dos rebanadas de nuestro pan frances casero"
+               </descripcion>
+                         <calorias>900</calorias>
+                    </Tostada-Francesa>
+                </plato> <plato>
+                    <Desayuno-de-la-casa>
+                        <precio_euros>4.50</precio_euros>
+                        <descripcion>
+                 "Huevos, bacon o salchicha, tostada y papas fritas"
+               </descripcion>
+                         <calorias>950</calorias>
+                    </Desayuno-de-la-casa>
+                </plato>
+            </platos>       
+        </carta>    
+    </restaurante>
